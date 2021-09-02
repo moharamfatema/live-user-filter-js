@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    font-family: Philosopher;
+    margin:0;
+}
+header{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    min-width: 100%;
+
+    box-shadow: 2px 0 13px 7px grey;
+}
+#container{
+    padding: 3vh 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+header h1{
+
+}
+header label{
+    text-align: left;
+    margin: 6pt;
+    font-size: 20pt;
+}
+header input{
+    background-color: darkblue;
+    border-radius: 50px;
+    border:0;
+    color: white;
+    padding: 3% ;
+    width: 95%;
+    justify-content: center;
+}
+li{
+
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid dimgrey 1px;
+}
+li .data{
+    display: flex;
+    flex-direction: column;
+}
+li:hover{
+    background-color: lightgray;
+
+}
+li:active{
+    background-color: lightblue;
+}
