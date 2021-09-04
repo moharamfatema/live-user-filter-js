@@ -64,16 +64,17 @@ li .data{
     justify-self: center;
     align-self: center;
     font-size: 130%;
-
 }
 li:hover{
     background-color: rgba(200,250,255,0.5);
 
 }
-li:active{
+/*li:active{
     background-color: cornflowerblue;
 
 }
+
+ */
 li h4{
     font-size: larger;
     margin-bottom: 1vh;
@@ -81,4 +82,8 @@ li h4{
 li p{
     margin-top: 1vh;
     color: midnightblue;
+}
+
+.hidden{
+    display: none;
 }
